@@ -1,0 +1,31 @@
+.button-container{
+    border: none;
+    padding: 12px 35px;
+    background: linear-gradient(90deg,#12d8a8 12%,rgba(18,216,168,.869) 38%,rgba(18,216,168,.726) 57%,rgba(18,216,168,.681) 82%,rgba(18,216,168,.6));
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.button-container:hover{
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.chevron-icon{
+    margin-right: 10px;
+    font-size: 2.5rem!important;
+    color: #ffff!important;
+    font-weight: bold!important;
+}
+.button-container span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

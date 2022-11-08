@@ -1,0 +1,74 @@
+.sticky-navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sticky-navbar-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.menu-items{
+    list-style-type: none;
+    color: #1f2471;
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+}
+.menu-items span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.career-badge{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #2B803E;
+    top: -10px;
+    right: -12px;
+    border-radius: 50%;
+    color: #ffff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings:hover .dropdown{
+    padding: 10px 25px;
+    height: 150px;
+}
+.dropdown{
+    position: absolute;
+    top: 40px;
+    transition: all 0.2s ease;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: 3px 3px 20px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.dropdown:hover{
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dropdown-menu-item{
+    list-style-type: none;
+    color: #1f2471;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
