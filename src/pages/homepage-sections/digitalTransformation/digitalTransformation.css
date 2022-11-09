@@ -1,0 +1,73 @@
+.digitalTransformation{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.digitalTransformation-wrapper{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+}
+.digitalTransformation-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.digitalTransformation-header h2{
+    font-size: 3.8rem;
+    color: #1f2471;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.text-underline-container{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.text-underline{
+    height: 10px;
+    border-radius: 20px;
+    width: 40px;
+    background: linear-gradient(90deg,#12d8a8 12%,rgba(18,216,168,.869) 38%,rgba(18,216,168,.726) 57%,rgba(18,216,168,.681) 82%,rgba(18,216,168,.6));
+    margin-right: 20px;
+}
+.text-underline-2{
+    height: 10px;
+    border-radius: 20px;
+    width: 80px;
+    background: linear-gradient(90deg,#12d8a8 12%,rgba(18,216,168,.869) 38%,rgba(18,216,168,.726) 57%,rgba(18,216,168,.681) 82%,rgba(18,216,168,.6));
+}
+.digitalTransformation-right p{
+    font-size: 1.5rem;
+    line-height: 24px;
+    color: #1f2471;
+    margin-bottom: 40px;
+}
+.digital-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.digital-card{
+    width: 100%;
+    height: 180px;
+    box-shadow: 3px 3px 20px rgb(0 0 0 / 10%);
+    padding: 15px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+.digital-card:hover{
+    transform: scale(1.1);
+}
+.digital-card p{
+    color: #505489;
+    font-size: 1.6rem;
+    text-align: center;
+}
