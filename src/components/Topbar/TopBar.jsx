@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 const TopBar = () => {
   return (
     <div className="topbar">
+      <div className="topbar-wrapper">
         <div className="topbar-left">
           <div className="topbar-left-item">
             <TextsmsOutlinedIcon className="icon"/>
@@ -21,6 +22,7 @@ const TopBar = () => {
           <FacebookIcon className="social-icon facebook"/>
           <LinkedInIcon className="social-icon"/>
         </div>
+      </div>
     </div>
   )
 }

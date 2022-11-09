@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="sticky-navbar">
         <nav className="sticky-navbar-wrapper">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="logo"/>
             <ul className="nav-menu">
                 <li className="menu-items">
                     <span>Home</span>

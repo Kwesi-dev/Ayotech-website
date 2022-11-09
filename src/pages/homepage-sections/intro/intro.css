@@ -1,0 +1,33 @@
+.home-intro{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.home-intro-wrapper{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    place-items: center;
+
+}
+.intro-left>h1{
+    color: #1f2471;
+    font-size:5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.intro-left>p{
+    color: #1f2471;
+    font-size:1.5rem;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.introImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
