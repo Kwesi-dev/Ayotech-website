@@ -9,10 +9,19 @@ import HowWeDo from './pages/homepage-sections/how-we-do/HowWeDo';
 import Intro from './pages/homepage-sections/intro/Intro';
 import Portfolio from './pages/homepage-sections/portfolio/Portfolio';
 import Services from './pages/homepage-sections/services/Services';
-
+import ArrowUpwardOutlinedIcon from '@mui/icons-material/ArrowUpwardOutlined';
 function App() {
+  const scrolltoTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
   return (
     <div className="App">
+      <div className="fab-icon" onClick={scrolltoTop}>
+        <ArrowUpwardOutlinedIcon className="arrow-top"/>
+      </div>
       <header className="header">
         <TopBar/>
         <Navbar/>

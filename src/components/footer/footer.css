@@ -22,6 +22,10 @@
     border-bottom: 1px solid #ffff;
     margin-bottom: 30px;
 }
+.f-top-item{
+    display: flex;
+    align-items: center;
+}
 .f-top-item span{
     font-size: 1.8rem;
 }
@@ -95,4 +99,9 @@
 .footer-links-container li:hover{
     padding-left: 10px;
     cursor: pointer;
+}
+.footer-top-icon{
+    margin-right: 20px;
+    font-size: 4rem!important;
+    color: #ffff!important;
 }

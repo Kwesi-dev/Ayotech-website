@@ -2,6 +2,9 @@ import Facebook from '@mui/icons-material/Facebook'
 import LinkedIn from '@mui/icons-material/LinkedIn'
 import React from 'react'
 import "./footer.css"
+import PhonelinkRingRoundedIcon from '@mui/icons-material/PhonelinkRingRounded';
+import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
+import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
 const Footer = () => {
   return (
     <div className="footer">
@@ -9,12 +12,15 @@ const Footer = () => {
             <div className="footer-top">
                 <img src="" alt="" className="logo" />
                 <div className="f-top-item">
+                    <TextsmsOutlinedIcon className="footer-top-icon"/>
                     <span>Send Email</span>
                 </div>
                 <div className="f-top-item">
+                    <PhonelinkRingRoundedIcon className="footer-top-icon"/>
                     <span>+{"("}374{")"}55{" "}206{" "}606</span>
                 </div>
                 <div className="f-top-item">
+                    <RoomOutlinedIcon className="footer-top-icon"/>
                     <span>24/15 Azatutyan Ave, Yerevan Armenia</span>
                 </div>
             </div>

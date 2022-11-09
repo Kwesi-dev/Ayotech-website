@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./navbar.css"
 import logo from "../../images/logo.svg"
 import Button from '../button/Button'
+
 const Navbar = () => {
+  const [scrollHeight, setScrollHeight] = useState(0) 
+  useEffect(() => {
+    const updateScrollHeight = () => {
+        setScrollHeight(window.scrollY)
+    }
+    window.addEventListener("scroll", updateScrollHeight)
+
+    return () => window.removeEventListener("scroll", updateScrollHeight)
+  })
   return (
-    <div className="sticky-navbar">
+    <div className={scrollHeight < 50 ? "sticky-navbar" : "sticky-navbar fixed"}>
         <nav className="sticky-navbar-wrapper">
             <img src={logo} alt="logo" className="logo"/>
             <ul className="nav-menu">
