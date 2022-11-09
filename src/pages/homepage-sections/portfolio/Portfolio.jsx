@@ -13,9 +13,9 @@ const Portfolio = () => {
         <div className="home-portfolio-wrapper">
             <div className="portfolio-header">
                 <h2>Take A Look At Our Latest Portfolio</h2>
-                <div className="text-underline-container">
-                    <div className="text-underline"></div>
-                    <div className="text-underline-2"></div>
+                <div className="portfolio-text-underline-container">
+                    <div className="portfolio-text-underline"></div>
+                    <div className="portfolio-text-underline-2"></div>
                 </div>
             </div>
             <div className="portfolio-cards">

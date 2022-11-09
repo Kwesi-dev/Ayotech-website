@@ -21,7 +21,7 @@
     font-weight: 600;
     margin-bottom: 10px;
 }
-.text-underline-container{
+.portfolio-text-underline-container{
     position: absolute;
     bottom: 0;
     left: 230px;
@@ -29,14 +29,14 @@
     align-items: center;
     justify-content: flex-start;
 }
-.text-underline{
+.portfolio-text-underline{
     height: 10px;
     border-radius: 20px;
     width: 40px;
     background: linear-gradient(90deg,#12d8a8 12%,rgba(18,216,168,.869) 38%,rgba(18,216,168,.726) 57%,rgba(18,216,168,.681) 82%,rgba(18,216,168,.6));
     margin-right: 20px;
 }
-.text-underline-2{
+.portfolio-text-underline-2{
     height: 10px;
     border-radius: 20px;
     width: 80px;

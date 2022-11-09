@@ -1,4 +1,6 @@
 import './App.css';
+import Carousel from './components/carousel/Carousel';
+import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import TopBar from './components/Topbar/TopBar';
 import About from './pages/homepage-sections/about/About';
@@ -22,7 +24,11 @@ function App() {
         <DigitalTransformation/>
         <HowWeDo/>
         <Portfolio/>
+        <Carousel/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }

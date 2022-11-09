@@ -1,0 +1,98 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #1f2471;
+    background-image: url("../../images/footerbg.webp");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    color: #ffff;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ffff;
+    margin-bottom: 30px;
+}
+.f-top-item span{
+    font-size: 1.8rem;
+}
+.footer-body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.footer-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-header h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-text-underline-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-text-underline{
+    height: 5px;
+    border-radius: 20px;
+    width: 20px;
+    background-color: #ffff;
+    margin-right: 20px;
+}
+.footer-text-underline-2{
+    height: 5px;
+    border-radius: 20px;
+    width: 40px;
+    background-color: #ffff;
+}
+.copyright-footer{
+    background-color: #3d4286;
+    padding: 15px 0;
+}
+.copyright-footer p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+.about-text{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.footer-social-icon{
+    font-size: 2.2rem!important;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+.footer-social-icon:hover{
+    background-color: #ffff;
+    color: #ffff!important;
+}
+.footer-links-container li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
+.footer-links-container li:hover{
+    padding-left: 10px;
+    cursor: pointer;
+}
